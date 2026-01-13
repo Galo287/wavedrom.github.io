@@ -2,11 +2,12 @@
   "name": "wavedrom-editor",
   "description": "WaveDrom editor",
   "version": "3.5.0",
-  "main": "index.js",
+  "main": "main.js",
   "directories": {
     "doc": "doc"
   },
   "scripts": {
+    "start": "electron .",
     "test": "eslint editor.js init.js",
     "build": "./build-wde.sh"
   },
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@drom/eslint-config": "^0.12.0",
     "codemirror": "^5.65.18",
+    "electron": "^33.0.0",
     "eslint": "^8.57.1",
     "wavedrom": "^3.5.0"
   },
